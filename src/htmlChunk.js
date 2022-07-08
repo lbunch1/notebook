@@ -1,18 +1,12 @@
+import api from './api.js';
+
 export default function htmlChunk(){
-    const sectionHTML = document.getElementById('html_');
+    const section = document.getElementById('html_');
 
-    function addChunk(id, header, content) {
-        const chunkHeader = document.createElement('h3');
-        chunkHeader.setAttribute('class', 'item');
-        chunkHeader.setAttribute('id', id);
-        chunkHeader.innerText = header;
-
-        sectionHTML.appendChild(chunkHeader);
-        sectionHTML.innerHTML += `<br>`;
-        sectionHTML.innerHTML += content;
-    }
-
-    addChunk('boilerplate', 'Boilerplate', 
+    api.addChunk(
+        section,
+        'boilerplate',
+        'Boilerplate', 
     `<pre>
     <code>
         &lt;!DOCTYPE html&gt;

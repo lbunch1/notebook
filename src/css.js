@@ -1,18 +1,10 @@
+import api from './api.js';
+
 export default function cssChunk(){
-    const sectionCSS = document.getElementById('css');
+    const section = document.getElementById('css');
 
-    function addChunk(id, header, content) {
-        const chunkHeader = document.createElement('h3');
-        chunkHeader.setAttribute('class', 'item');
-        chunkHeader.setAttribute('id', id);
-        chunkHeader.innerText = header;
-
-        sectionCSS.appendChild(chunkHeader);
-        sectionCSS.innerHTML += `<br>`;
-        sectionCSS.innerHTML += content;
-    }
-
-    addChunk(
+    api.addChunk(
+        section,
         'box-shadow',
         'box-shadow',
         `<pre>
@@ -23,7 +15,8 @@ box-shadow: 2px 2px 8px 3px rgb(10, 10, 10, 0.8);
     </pre>`
     )
 
-    addChunk(
+    api.addChunk(
+        section,
         'media',
         '@media',
         `<pre>

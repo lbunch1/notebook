@@ -1,14 +1,22 @@
+import api from './api.js';
+
 export default function jsChunk(){
-    const sectionJS = document.getElementById('js');
+    const section = document.getElementById('js');
 
-    function addChunk(id, header, content) {
-        const chunkHeader = document.createElement('h3');
-        chunkHeader.setAttribute('class', 'item');
-        chunkHeader.setAttribute('id', id);
-        chunkHeader.innerText = header;
+    api.addChunk(
+        section,
+        'reduce',
+        '.reduce()',
+        `<pre>
+    <code>
+    /* .reduce steps through an array operating on the previous value
+    and current value with an optional parameter of an initial value. */
+    let arr = [10, 5, 3, 1];
 
-        sectionJS.appendChild(chunkHeader);
-        sectionJS.innerHTML += `<br>`;
-        sectionJS.innerHTML += content;
-    }
+    let reducedArr = arr.reduce((a,b) => a + b);
+
+    console.log(reducedArr) // 19
+    </code>
+        </pre>`
+    )
 }
