@@ -1,0 +1,82 @@
+/*!
+  Highlight.js v11.5.1 (git: b8f233c8e2)
+  (c) 2006-2022 Ivan Sagalaev and other contributors
+  License: BSD-3-Clause
+ */
+
+/*! `bash` grammar compiled for Highlight.js 11.5.1 */
+
+/*! `c` grammar compiled for Highlight.js 11.5.1 */
+
+/*! `cpp` grammar compiled for Highlight.js 11.5.1 */
+
+/*! `csharp` grammar compiled for Highlight.js 11.5.1 */
+
+/*! `css` grammar compiled for Highlight.js 11.5.1 */
+
+/*! `diff` grammar compiled for Highlight.js 11.5.1 */
+
+/*! `go` grammar compiled for Highlight.js 11.5.1 */
+
+/*! `ini` grammar compiled for Highlight.js 11.5.1 */
+
+/*! `java` grammar compiled for Highlight.js 11.5.1 */
+
+/*! `javascript` grammar compiled for Highlight.js 11.5.1 */
+
+/*! `json` grammar compiled for Highlight.js 11.5.1 */
+
+/*! `kotlin` grammar compiled for Highlight.js 11.5.1 */
+
+/*! `less` grammar compiled for Highlight.js 11.5.1 */
+
+/*! `lua` grammar compiled for Highlight.js 11.5.1 */
+
+/*! `makefile` grammar compiled for Highlight.js 11.5.1 */
+
+/*! `markdown` grammar compiled for Highlight.js 11.5.1 */
+
+/*! `objectivec` grammar compiled for Highlight.js 11.5.1 */
+
+/*! `perl` grammar compiled for Highlight.js 11.5.1 */
+
+/*! `php-template` grammar compiled for Highlight.js 11.5.1 */
+
+/*! `php` grammar compiled for Highlight.js 11.5.1 */
+
+/*! `plaintext` grammar compiled for Highlight.js 11.5.1 */
+
+/*! `python-repl` grammar compiled for Highlight.js 11.5.1 */
+
+/*! `python` grammar compiled for Highlight.js 11.5.1 */
+
+/*! `r` grammar compiled for Highlight.js 11.5.1 */
+
+/*! `ruby` grammar compiled for Highlight.js 11.5.1 */
+
+/*! `rust` grammar compiled for Highlight.js 11.5.1 */
+
+/*! `scss` grammar compiled for Highlight.js 11.5.1 */
+
+/*! `shell` grammar compiled for Highlight.js 11.5.1 */
+
+/*! `sql` grammar compiled for Highlight.js 11.5.1 */
+
+/*! `swift` grammar compiled for Highlight.js 11.5.1 */
+
+/*! `typescript` grammar compiled for Highlight.js 11.5.1 */
+
+/*! `vbnet` grammar compiled for Highlight.js 11.5.1 */
+
+/*! `xml` grammar compiled for Highlight.js 11.5.1 */
+
+/*! `yaml` grammar compiled for Highlight.js 11.5.1 */
+
+/**
+ * @license
+ * Lodash <https://lodash.com/>
+ * Copyright OpenJS Foundation and other contributors <https://openjsf.org/>
+ * Released under MIT license <https://lodash.com/license>
+ * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
+ * Copyright Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
+ */

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="bundle.js" defer></script>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <title>Personal Notes</title>
+</head>
+<body>
+    <nav>
+        <a class="main_link" href="#resources">Resource<br>Links</a><br>
+        <a class="main_link" href="#html">HTML</a><br>
+        <a class="main_link" href="#css">CSS</a><br>
+        <a class="main_link" href="#js">Javascript</a><br>
+        <a class="main_link" href="#node">Node.js</a><br><br>
+
+        <ul class="autolink"></ul>
+    </nav>
+    <a href="#top">
+        <div class="to_top">
+            <img src="img/arrow_up.svg" alt="to top">
+        </div>
+    </a>
+    <header name="top">
+        <h1><span class="banner-dec">&frasl;&frasl;</span>Logan's Notes and Resources</h1>
+    </header>
+    <main>
+        <section id="resources">
+            <h2>Links and Resources</h2><br>
+            <a target="_blank" href="https://css-tricks.com/snippets/css/complete-guide-grid/">CSS Grid</a><br>
+            <a target="_blank" href="https://app.haikei.app/">SVG Shapes - haikei</a><br>
+            <a target="_blank" href="https://bennettfeely.com/clippy/">CSS Clip Paths</a><br>
+            <a target="_blank" href="https://unsplash.com/">Stock Photos - unsplash</a><br>
+            <a target="_blank" href="https://fontawesome.com/icons?d=gallery&m=free">Icons - font-awesome</a><br>
+            <a target="_blank" href="https://heroicons.com/">Icons - heroicons</a>
+        </section>
+
+
+        <section id="html">
+            <h2>HTML</h2><br>
+            <h3 class="item" id="boilerplate">Boilerplate</h3>
+            <pre>
+    <code>
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="en"&gt;
+        &lt;head&gt;
+            &lt;meta charset="UTF-8"&gt;
+            &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+            &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+            &lt;title&gt;Document&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+            
+        &lt;/body&gt;
+        &lt;/html&gt;
+    </code>
+            </pre>
+        </section>
+
+
+        <section id="css">
+            <h2>CSS</h2><br>
+
+
+            <h3 class="item" id="grid">box-shadow</h3>
+            <pre>
+                <code class="language-css">
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 2px 2px 8px 3px rgb(10, 10, 10, 0.8);
+                </code>
+            </pre>
+
+            <h3 class="item"id="media">@media</h3>
+            <pre>
+                <code>
+    /* Small screens and tablets */
+    @media screen and (max-width: 600px) {
+        /* .. */
+    }
+    /* Large screens */
+    @media screen and (min-width: 600px) {
+        /* .. */
+    }
+                </code>
+            </pre>
+
+
+        </section>
+
+
+        <section id="js">
+            <h2>Javascript</h2>
+        </section>
+
+
+        <section id="node">
+            <h2>Node.js</h2>
+        </section>
+    
+    
+    
+    
+    </main>
+    <script>hljs.highlightAll();</script>
+</body>
+</html>
